@@ -10,6 +10,7 @@
 - View:
   - Like div
   - Used to group and style other components
+  - Use flexbox layout by default
 - Text:
   - Like span
   - Used to display text
@@ -31,13 +32,18 @@
 - FlatList:
   - Like ul
   - Used to create a scrollable list of items
+  - FlatList for long list, map for short list
 - SectionList:
   - Like ul with nested lists
   - Used to create a scrollable list of items with sections
 - Modal:
   - Like div with {position: fixed}
   - Used to create a modal window that appears on top of the current screen
-
+- ActivityIndicator:
+  - Show a spinner or loading indicator 
+- SafeAreaView:
+  - Provides a safe zone to render your app's content without being covered by your device's hardware (notch/home indicator/status bar)
+ 
 
 
 <br />
