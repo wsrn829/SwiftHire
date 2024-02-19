@@ -7,21 +7,43 @@
 - Mobile apps are usually faster, more responsive, and offer better performance, while the mobile version of web apps relies on internet connectivity and may not offer the same level of performance or features as a native mobile app.
 4. React Native has become one of the most popular choices for developing both iOS and Android apps.
 5. React Native components:
-- View: Like div. Used to group and style other components.
-- Text: Like span. Used to display text.
-- Image: Like img. Used to display images.
-- ScrollView: Like div with {overflow: scroll}. Used to create a scrollable container.
-- TextInput: Like input. Used to create an input field for users to enter text.
-- Button: Like button. Used to create a button that users can click on.
-- TouchableOpacity: Like button with built-in support for touch events. Used to create a button that users can click on.
-- FlatList: Like ul. Used to create a scrollable list of items.
-- SectionList: Like ul with nested lists. Used to create a scrollable list of items with sections.
-- Modal: Like div with {position: fixed}. Used to create a modal window that appears on top of the current screen.
+- View:
+  - Like div
+  - Used to group and style other components
+- Text:
+  - Like span
+  - Used to display text
+- Image:
+  - Like img
+  - Used to display images
+- ScrollView:
+  - Like div with {overflow: scroll}
+  - Used to create a scrollable container
+- TextInput:
+  - Like input
+  - Used to create an input field for users to enter text
+- Button:
+  - Like button
+  - Used to create a button that users can click on
+- TouchableOpacity:
+  - Like button with built-in support for touch events
+  - Used to create a button that users can click on
+- FlatList:
+  - Like ul
+  - Used to create a scrollable list of items
+- SectionList:
+  - Like ul with nested lists
+  - Used to create a scrollable list of items with sections
+- Modal:
+  - Like div with {position: fixed}
+  - Used to create a modal window that appears on top of the current screen
 
 
 
 <br />
+
 ----------------------------------
+
 
 # Expo Router Example
 
