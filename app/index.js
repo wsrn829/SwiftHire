@@ -15,16 +15,14 @@ const Home = () => {
                 headerShadowVisible: false,
                 headerLeft: () => (
                     <ScreenHeaderBtn 
-                        icon={icons.menu}
+                        iconUrl={icons.menu}
                         dimension="60%"
-                        onPress={() => router.navigate('NearbyJobs')}
                     />  
                 ),
                 headerRight: () => (
                     <ScreenHeaderBtn 
-                        icon={icons.profile}
+                        iconUrl={images.profile}
                         dimension="100%"
-                        onPress={() => router.navigate('Search')}
                     />
                 ),
                 headerTitle: ""
