@@ -6,7 +6,14 @@
 - Mobile apps are standalone applications designed specifically for mobile devices, while the mobile version of web apps is a responsive version of a web app optimized for mobile viewing.
 - Mobile apps are usually faster, more responsive, and offer better performance, while the mobile version of web apps relies on internet connectivity and may not offer the same level of performance or features as a native mobile app.
 4. React Native has become one of the most popular choices for developing both iOS and Android apps.
-5. React Native components:
+5. If expo could not connect to repo on your phone, run below commands:
+```
+npm install -g expo-cli
+
+expo-cli start --tunnel
+
+```
+6. React Native components:
 - View:
   - Like div
   - Used to group and style other components
