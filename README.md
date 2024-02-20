@@ -47,10 +47,11 @@ expo-cli start --tunnel
   - Like div with {position: fixed}
   - Used to create a modal window that appears on top of the current screen
 - ActivityIndicator:
-  - Show a spinner or loading indicator 
+  - Shows a spinner or loading indicator 
 - SafeAreaView:
   - Provides a safe zone to render your app's content without being covered by your device's hardware (notch/home indicator/status bar)
- 
+7. The useState hook cannot be called outside of a functional component in React.
+- Hooks must be called at the top level of a React function component or a custom hook.
 
 
 <br />
